@@ -73,6 +73,5 @@ def test_write_word_counts():
 
     assert lines == ["hello\t2\n", "world\t1\n", "python\t1\n"]
 
-    # clean up
-
+    # Clean up
     shutil.rmtree(output_folder)
